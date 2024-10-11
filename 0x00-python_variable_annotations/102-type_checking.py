@@ -4,6 +4,7 @@ that takes a tuple of integers and returns a tuple of integers
 with a factor of 2 or 3.0.
 
 """
+
 from typing import Tuple
 
 
