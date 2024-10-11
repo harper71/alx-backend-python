@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/ env python3
 """corrects the code"""
 
 from typing import List, Sequence, Any, Union
