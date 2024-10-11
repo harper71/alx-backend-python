@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-from math import floor
-concat = __import__('1-concat').concat
 
-str1 = "egg"
-str2 = "shell"
+safe_first_element =  __import__('100-safe_first_element').safe_first_element
 
-print(concat(str1, str2) == "{}{}".format(str1, str2))
-print(concat.__annotations__)
+print(safe_first_element.__annotations__)
