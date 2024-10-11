@@ -5,10 +5,10 @@ with a factor of 2 or 3.0.
 
 """
 
-from typing import Tuple
+from typing import Tuple, List
 
 
-def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """ Change the annotation for 1st and return the type
         to Tuple
         to indicate that the function accepts and
