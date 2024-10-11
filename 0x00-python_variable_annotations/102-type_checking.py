@@ -5,7 +5,7 @@ with a factor of 2 or 3.0.
 
 """
 
-from typing import Tuple, List
+from typing import Tuple, List, Any
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
@@ -14,7 +14,7 @@ def zoom_array(lst: Tuple, factor: int = 2) -> List:
         to indicate that the function accepts and
         returns a tuple of any type.
     """
-    zoomed_in: Tuple = [
+    zoomed_in: List[Any] = [
         item for item in lst
         for i in range(factor)
     ]
