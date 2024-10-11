@@ -14,8 +14,8 @@ def zoom_array(lst: Tuple, factor: int = 2) -> List:
         to indicate that the function accepts and
         returns a tuple of any type.
     """
-    zoomed_in: Tuple = tuple(
+    zoomed_in: Tuple = [
         item for item in lst
         for i in range(factor)
-    )
+    ]
     return zoomed_in
